@@ -1,9 +1,10 @@
-- id: clangd-tidy
-  name: clangd-tidy
-  description: ""
-  entry: clangd-tidy
-  language: python
-  "types_or": [c++, c]
-  require_serial: false
-  additional_dependencies: []
-  minimum_pre_commit_version: "2.9.2"
+-   id: clangd-tidy
+    name: clangd-tidy
+    description: ''
+    entry: clangd-tidy
+    language: python
+    'types_or': [c++, c]
+    args: []
+    require_serial: false
+    additional_dependencies: []
+    minimum_pre_commit_version: '2.9.2'
